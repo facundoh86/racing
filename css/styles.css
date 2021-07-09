@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorPrimario : #5d8a9f;
+    --paddingSecciones: 60px 0;
+}
+
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.contenedor{
+        width:90%;
+        max-width: 1100px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: var(--paddingSecciones);
+}
+.menu-navegador{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.enlaces a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.escudo{
+    width: 200px;
+    height: 100px;
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient(to right, #4facfe 0%, hsla(183, 100%, 50%, 0.493) 100%),url("../img/cristian-tarzi-JTD7bYiLPNY-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
