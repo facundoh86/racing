@@ -19,6 +19,7 @@ body{
         margin: 0 auto;
         overflow: hidden;
         padding: var(--paddingSecciones);
+        
 }
 .menu-navegador{
     display: flex;
@@ -52,3 +53,31 @@ header{
     background-size: cover;
     position: relative;
 }
+
+
+.titulo-seccion{
+    text-align: center;
+    font-size:3em;
+}
+
+
+.sobreRacing{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+}
+
+.escudo{
+    width:30%;
+    height:50%;
+    align-self: center;
+}
+
+.historia{
+    display: flex;
+    width: 70%;
+    height: 50%;
+    align-self: center;
+}
+
+
